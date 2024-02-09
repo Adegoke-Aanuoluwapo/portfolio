@@ -1,5 +1,5 @@
 import LogoTitle from '../../assets/images/logo-s.png' 
-import {Link, NavLink} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './index.scss'
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
               <img src={LogoTitle} alt="developer" />
               Immaculate
               <br />
+              Web Developer
               </h1>
              <h2>a Full Stack Developer /PHP /LARAVEL/REACT.<br/></h2> 
              <Link to="contact" className="flat-button">CONTACT</Link>
